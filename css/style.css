@@ -420,7 +420,6 @@ template {
 
 .logo__img {
   width: 100%;
-  height: 100%;
 }
 
 .search {
@@ -547,6 +546,7 @@ template {
   }
   .logo {
     width: 99px;
+    height: 13px;
   }
 }
 /*# sourceMappingURL=style.css.map */
