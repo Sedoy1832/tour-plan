@@ -452,6 +452,7 @@ template {
   right: 0;
   background-color: #EC1F46;
   border: none;
+  cursor: pointer;
 }
 
 .user {
@@ -532,6 +533,7 @@ template {
     height: 11px;
     border: none;
     background-color: #FFFFFF;
+    cursor: pointer;
   }
   .menu-button__line {
     width: 16px;
