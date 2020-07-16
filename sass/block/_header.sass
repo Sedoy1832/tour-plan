@@ -1,4 +1,4 @@
-.header
+.navbar
   background-color: #fff
   &-top
     display: flex
@@ -7,7 +7,20 @@
     padding: 40px 0
   &__search
     margin-right: auto 
-    margin-left: 108px 
+    margin-left: 108px
+  &-bottom
+    background-color: $dark
+  &-menu
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 31px 0
+    &__item
+      list-style: none
+      color: $light
+    &__link
+      text-decoration: none
+      color: $light
 .search
   display: flex
   position: relative
