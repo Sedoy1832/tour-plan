@@ -588,6 +588,12 @@ template {
 .rating__counter {
   font-size: 14px;
   line-height: 18px;
+  font-weight: bold;
+}
+
+.five {
+  font-size: 11px;
+  line-height: 18px;
 }
 
 @media (max-width: 1200px) {
