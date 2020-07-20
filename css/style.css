@@ -610,7 +610,7 @@ template {
   border-radius: 8px;
 }
 
-.swiper-slide:after {
+.swiper-slide:nth-child(5n-3):after {
   content: '';
   width: 100%;
   height: 100%;
