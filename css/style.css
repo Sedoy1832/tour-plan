@@ -577,6 +577,19 @@ template {
           justify-content: space-between;
 }
 
+.hotel-shell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .stars {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
@@ -723,7 +736,6 @@ template {
 }
 
 .booking-person {
-  margin-top: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -738,14 +750,28 @@ template {
 }
 
 .booking-person__guests {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4px;
   margin-bottom: 9px;
 }
 
+.booking-person__room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .booking-person__user {
+  width: 14px;
+  height: 14px;
   margin-right: 9px;
 }
 
 .booking-person__home {
+  width: 14px;
+  height: 14px;
   margin-right: 14px;
 }
 
@@ -788,9 +814,39 @@ template {
   color: #FFFFFF;
 }
 
+.map {
+  width: 347px;
+  height: 213px;
+  background-color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
+  }
+  .slider {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .hotel-grid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hotel-shell {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .booking {
+    max-width: 48%;
+  }
+  .map {
+    width: 48%;
   }
 }
 
@@ -872,6 +928,22 @@ template {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
+  }
+  .hotel-shell {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .slider {
+    margin-bottom: 20px;
+  }
+  .booking {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .map {
+    width: 100%;
   }
   .stars {
     -ms-flex-preferred-size: auto;

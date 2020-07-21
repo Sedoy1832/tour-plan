@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=ce1dd235-e572-4749-895b-1a4eca042bcb&lang=ru_RU"
+      type="text/javascript"
+    ></script>
   </head>
   <body>
     <div class="navbar">
@@ -186,46 +190,50 @@
             <!-- /.swiper-container -->
           </div>
           <!-- /.slider -->
-          <div class="booking">
-            <div class="booking-price">
-              <span class="booking-price__starts">price starts as</span>
-              <strong class="booking-price__pricetag">$ 8,500</strong>
-              <span class="booking-price__room">per room / night</span>
+          <div class="hotel-shell">
+            <div class="booking">
+              <div class="booking-price">
+                <span class="booking-price__starts">price starts as</span>
+                <strong class="booking-price__pricetag">$ 8,500</strong>
+                <span class="booking-price__room">per room / night</span>
+              </div>
+              <!-- /.booking-price -->
+              <div class="booking-person">
+                <span class="booking-person__guests">
+                  <img
+                    src="img/user.svg"
+                    alt="Icon: user"
+                    class="booking-person__user"
+                  />2 x Guests</span
+                >
+                <span class="booking-person__room"
+                  ><img
+                    src="img/home.svg"
+                    alt="Icon: home"
+                    class="booking-person__home"
+                  />1 x Room</span
+                >
+              </div>
+              <!-- /.booking-person -->
+              <div class="booking-call">
+                <span class="booking-call__text">Quick Booking</span>
+                <a href="tel:12100" class="booking-call__number">
+                  <img
+                    src="img/phone-call.svg"
+                    alt="Icon: phone"
+                    class="booking-call__phone"
+                  />
+                  <span class="booking-call__num">12100</span>
+                </a>
+              </div>
+              <!-- /.booking-call -->
+              <button class="booking-button">View Other Options</button>
+              <!-- /.booking-booton -->
             </div>
-            <!-- /.booking-price -->
-            <div class="booking-person">
-              <span class="booking-person__guests">
-                <img
-                  src="img/user.svg"
-                  alt="Icon: user"
-                  class="booking-person__user"
-                />2 x Guests</span
-              >
-              <span class="booking-person__room"
-                ><img
-                  src="img/home.svg"
-                  alt="Icon: home"
-                  class="booking-person__home"
-                />1 x Room</span
-              >
-            </div>
-            <!-- /.booking-person -->
-            <div class="booking-call">
-              <span class="booking-call__text">Quick Booking</span>
-              <a href="tel:12100" class="booking-call__number">
-                <img
-                  src="img/phone-call.svg"
-                  alt="Icon: phone"
-                  class="booking-call__phone"
-                />
-                <span class="booking-call__num">12100</span>
-              </a>
-            </div>
-            <!-- /.booking-call -->
-            <button class="booking-button">View Other Options</button>
-            <!-- /.booking-booton -->
+            <!-- /.booking -->
+            <div class="map" id="map"></div>
+            <!-- /.map -->
           </div>
-          <!-- /.booking -->
         </div>
         <!-- /.hotel-grid -->
       </div>
