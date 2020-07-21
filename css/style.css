@@ -598,7 +598,7 @@ template {
   font-weight: bold;
 }
 
-.rating__counter--small {
+.rating__counter-small {
   font-size: 11px;
   line-height: 18px;
 }
@@ -610,7 +610,7 @@ template {
   border-radius: 8px;
 }
 
-.swiper-slide:nth-child(5n-3):after {
+.swiper-slide:after {
   content: '';
   width: 100%;
   height: 100%;
@@ -644,6 +644,7 @@ template {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 10px;
+  outline: none;
   cursor: pointer;
 }
 
