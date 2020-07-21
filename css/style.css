@@ -955,6 +955,9 @@ template {
   .container {
     max-width: 90%;
   }
+  .swiper-container {
+    height: 350px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -964,6 +967,9 @@ template {
   .logo {
     width: 99px;
     height: 13px;
+  }
+  .swiper-container {
+    height: 250px;
   }
 }
 /*# sourceMappingURL=style.css.map */
