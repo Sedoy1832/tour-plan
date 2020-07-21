@@ -37,17 +37,14 @@ function init() {
         hintContent: "Hilton Munich Park",
       },
     });
-  myMap.geoObjects
-    .add(myGeoObject)
-    .add(myPieChart)
-    .add(
-      new ymaps.Placemark(
-        [48.15266, 11.598704],
-        {},
-        {
-          preset: "islands#icon",
-          iconColor: "#FF2400",
-        }
-      )
-    );
+  myMap.geoObjects.add(myGeoObject).add(
+    new ymaps.Placemark(
+      [48.15266, 11.598704],
+      {},
+      {
+        preset: "islands#icon",
+        iconColor: "#FF2400",
+      }
+    )
+  );
 }
