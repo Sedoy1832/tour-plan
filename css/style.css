@@ -20,6 +20,10 @@ img {
      object-fit: cover;
 }
 
+.booking {
+  font-family: 'Nunito', sans-serif;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -564,6 +568,15 @@ template {
           align-items: center;
 }
 
+.hotel-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .stars {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
@@ -656,6 +669,123 @@ template {
 .slider-button--prev {
   background-image: url(../img/arrow-left.svg);
   left: 18px;
+}
+
+.booking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  max-width: 350px;
+  min-height: 210px;
+  background-color: #0A223D;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 29px;
+}
+
+.booking-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.booking-price__starts {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.booking-price__pricetag {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.booking-price__room {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 9px;
+}
+
+.booking-person {
+  margin-top: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 80px;
+  height: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.booking-person__guests {
+  margin-bottom: 9px;
+}
+
+.booking-person__user {
+  margin-right: 9px;
+}
+
+.booking-person__home {
+  margin-right: 14px;
+}
+
+.booking-call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.booking-call__text {
+  margin-bottom: 17px;
+}
+
+.booking-call__number {
+  text-decoration: none;
+  color: inherit;
+}
+
+.booking-call__phone {
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
+}
+
+.booking-button {
+  width: 100%;
+  min-height: 45px;
+  background-color: #EC1F46;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
 }
 
 @media (max-width: 1200px) {

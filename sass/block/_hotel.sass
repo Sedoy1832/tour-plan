@@ -15,7 +15,6 @@
     &__discription
       margin: 5px 0
   &-name
-    
     font-size: 24px
     line-height: 30px
   &-discription
@@ -25,6 +24,11 @@
     display: flex
     flex-wrap: wrap
     align-items: center
+  &-grid
+    display: flex
+    justify-content: space-between
+    
+  
 .stars
   flex-basis: 100%
 .offer
@@ -95,3 +99,75 @@
     &--prev
       background-image: url(../img/arrow-left.svg)
       left: 18px
+.booking
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-content: flex-start
+  max-width: 350px
+  min-height: 210px
+  background-color: $dark
+  border-radius: 8px
+  color: $light
+  padding: 29px
+  &-price
+    display: flex
+    flex-direction: column
+    &__starts
+      font-style: normal
+      font-weight: normal
+      font-size: 10px
+      line-height: 14px
+    &__pricetag
+      font-style: normal
+      font-weight: 800
+      font-size: 24px
+      line-height: 33px
+    &__room
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 16px
+      margin-bottom: 9px
+  &-person
+    margin-top: 4px
+    display: flex
+    max-width: 80px
+    height: 40px
+    flex-wrap: wrap
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 16px
+    &__guests
+      margin-bottom: 9px
+    &__user
+      margin-right: 9px
+    &__home
+      margin-right: 14px
+  &-call
+    display: flex
+    width: 100%
+    justify-content: space-between
+    font-style: normal
+    font-weight: 600
+    font-size: 18px
+    line-height: 25px
+    &__text
+      margin-bottom: 17px
+    &__number
+      text-decoration: none
+      color: inherit
+    &__phone
+      width: 14px
+      height: 14px
+      margin-right: 8px
+  &-button
+    width: 100%
+    min-height: 45px
+    background-color: $primary
+    border-radius: 4px
+    border: none
+    outline: none
+    color: $light
+    
