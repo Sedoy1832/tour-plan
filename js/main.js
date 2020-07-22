@@ -43,3 +43,4 @@ function init() {
   // Добавляем все метки на карту.
   myMap.geoObjects.add(myPlacemark1);
 }
+$(".newsletter").parallax({ imageSrc: "/img/newsleter-bg.jpg" });

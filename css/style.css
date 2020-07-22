@@ -829,10 +829,7 @@ template {
 .newsletter {
   position: relative;
   padding: 98px 0 87px 0;
-  background-image: url(../img/newsleter-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: transparent;
   margin-bottom: 40px;
 }
 
@@ -888,6 +885,10 @@ template {
   padding-left: 33px;
   width: 350px;
   min-height: 55px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #BDBDBD;
 }
 
 .newsletter-subscribe__button {
