@@ -14,7 +14,9 @@
     max-width: 48%
   .map
     width: 48%
-  
+  .activites
+    &__card
+      margin-right: 20px
 @media (max-width: 992px)
   .container, .newsletter-wrapper
     max-width: 93%
@@ -37,7 +39,13 @@
     &-slider
       &__item
         max-width: 580px
-  
+  .activites
+    &-wrapper
+      flex-wrap: wrap
+    &__card
+      width: 49%
+      margin-right: 0
+      margin-bottom: 20px
 @media ( max-width: 768px )
   .container
     max-width: 93%
@@ -99,14 +107,14 @@
         left: 50%
         transform: translate(-50%, 0)
         &--prev
-          margin-left: -65px
+          margin-left: -100px
         &--next
-          margin-left: 65px
+          margin-left: 100px
   .newsletter
     &-wrapper
       flex-direction: column
       align-items: start
-      max-width: 95%
+      max-width: 90%
     &-subscribe
       max-width: 95%
       &__input
@@ -120,12 +128,26 @@
         font-weight: 600
         font-size: 30px
         line-height: 38px
+  .activites
+    &-wrapper
+      flex-wrap: wrap
+    &__card
+      width: 49%
+      margin-bottom: 20px
+  
 @media ( max-width: 576px )
   .container
     max-width: 90%
   .hotel
     &-slider
       height: 350px
+  .activites
+    &-wrapper
+      flex-wrap: wrap
+    &__card
+      width: 100%
+      margin-bottom: 20px
+  
 @media ( max-width: 480px )
   .container
     max-width: 90%

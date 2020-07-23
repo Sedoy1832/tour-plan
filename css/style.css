@@ -886,7 +886,7 @@ template {
 }
 
 .newsletter-subscribe__input {
-  padding-right: 75px;
+  padding-right: 110px;
   padding-left: 33px;
   min-height: 55px;
   font-weight: 300;
@@ -900,13 +900,13 @@ template {
   position: absolute;
   top: 0;
   right: 0;
-  width: 65px;
+  min-width: 65px;
   height: 55px;
   background-color: #EC1F46;
   color: #FFFFFF;
   border: none;
   outline: none;
-  ont-weight: bold;
+  font-weight: bold;
   font-size: 12px;
   line-height: 15px;
   cursor: pointer;
@@ -1055,6 +1055,107 @@ template {
   max-width: 537px;
 }
 
+.activites {
+  padding: 60px 0 98px 0;
+}
+
+.activites-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 57px;
+}
+
+.activites-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.activites__card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 255px;
+  height: 255px;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 24px 26px;
+}
+
+.activites__card::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+  z-index: -1;
+}
+
+.activites-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.activites-card__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -2;
+}
+
+.activites-card__title {
+  left: 0;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.activites-card__button {
+  width: 100px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #EC1F46;
+  border-radius: 4px;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -1081,6 +1182,9 @@ template {
   .map {
     width: 48%;
   }
+  .activites__card {
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1106,6 +1210,15 @@ template {
   }
   .response-slider__item {
     max-width: 580px;
+  }
+  .activites-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .activites__card {
+    width: 49%;
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 }
 
@@ -1202,10 +1315,10 @@ template {
             transform: translate(-50%, 0);
   }
   .response-slider__button--prev {
-    margin-left: -65px;
+    margin-left: -100px;
   }
   .response-slider__button--next {
-    margin-left: 65px;
+    margin-left: 100px;
   }
   .newsletter-wrapper {
     -webkit-box-orient: vertical;
@@ -1215,7 +1328,7 @@ template {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
-    max-width: 95%;
+    max-width: 90%;
   }
   .newsletter-subscribe {
     max-width: 95%;
@@ -1234,6 +1347,14 @@ template {
     font-size: 30px;
     line-height: 38px;
   }
+  .activites-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .activites__card {
+    width: 49%;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1242,6 +1363,14 @@ template {
   }
   .hotel-slider {
     height: 350px;
+  }
+  .activites-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .activites__card {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
