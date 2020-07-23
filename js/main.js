@@ -1,10 +1,10 @@
-var mySwiper = new Swiper(".swiper-container", {
+var hotelSlider = new Swiper(".hotel-slider", {
   // Optional parameters
   loop: true,
   // Navigation arrows
   navigation: {
-    nextEl: ".slider-button--next",
-    prevEl: ".slider-button--prev",
+    nextEl: ".hotel-slider__button--next",
+    prevEl: ".hotel-slider__button--prev",
   },
   keyboard: {
     enabled: true,
@@ -44,3 +44,19 @@ function init() {
   myMap.geoObjects.add(myPlacemark1);
 }
 $(".newsletter").parallax({ imageSrc: "/img/newsleter-bg.jpg" });
+
+var responseSlider = new Swiper(".response-slider", {
+  // Optional parameters
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".response-slider__button--next",
+    prevEl: ".response-slider__button--prev",
+  },
+
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+});

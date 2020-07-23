@@ -136,55 +136,57 @@
         </div>
         <!-- /.hotel-info -->
         <div class="hotel-grid">
-          <div class="slider">
-            <div class="swiper-container">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <img
-                    src="img/swiper.jpg"
-                    alt="slide"
-                    class="swiper-slide__img"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="img/swiper-two.jpg "
-                    alt="slide"
-                    class="swiper-slide__img"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="img/swiper-three.jpg"
-                    alt="slide"
-                    class="swiper-slide__img"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="img/swiper-four.jpg"
-                    alt="slide"
-                    class="swiper-slide__img"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="img/swiper-five.jpg"
-                    alt="slide"
-                    class="swiper-slide__img"
-                  />
-                </div>
+          <div class="swiper-container hotel-slider hotel__slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  src="img/swiper.jpg"
+                  alt="slide"
+                  class="hotel-slider__img"
+                />
               </div>
-
-              <!-- If we need navigation buttons -->
-              <button class="slider-button slider-button--prev"></button>
-              <button class="slider-button slider-button--next"></button>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  src="img/swiper-two.jpg "
+                  alt="slide"
+                  class="hotel-slider__img"
+                />
+              </div>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  src="img/swiper-three.jpg"
+                  alt="slide"
+                  class="hotel-slider__img"
+                />
+              </div>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  src="img/swiper-four.jpg"
+                  alt="slide"
+                  class="hotel-slider__img"
+                />
+              </div>
+              <div class="swiper-slide hotel-slider__item">
+                <img
+                  src="img/swiper-five.jpg"
+                  alt="slide"
+                  class="hotel-slider__img"
+                />
+              </div>
             </div>
-            <!-- /.swiper-container -->
+
+            <!-- If we need navigation buttons -->
+            <button
+              class="hotel-slider__button hotel-slider__button--prev"
+            ></button>
+            <button
+              class="hotel-slider__button hotel-slider__button--next"
+            ></button>
           </div>
-          <!-- /.slider -->
+          <!-- /.swiper-container -->
+
           <div class="hotel-shell">
             <div class="booking">
               <div class="booking-price">
@@ -255,38 +257,118 @@
     <!-- /.newsletter -->
     <section class="response">
       <div class="container">
-        <h2 class="section-title">What people thinks about us</h2>
-        <div class="response-container">
+        <h2 class="response__title">What people thinks about us</h2>
+        <div class="swiper-container response-slider">
           <!-- Additional required wrapper -->
-          <div class="response-wrapper">
+          <div class="swiper-wrapper response-wrapper">
             <!-- Slides -->
-            <div class="response-slide">
-              <img src="img/user-1.jpg" alt="" class="response-slide__avatar" />
-              <span class="response-slide__name">Megan Fox</span>
-              <div class="response-slide__rating">
-                <img src="img/star.svg" alt="stars" />
-                <img src="img/star.svg" alt="stars" />
-                <img src="img/star.svg" alt="stars" />
-                <img src="img/star.svg" alt="stars" />
-                <img src="img/star.svg" alt="stars" />
+            <div class="swiper-slide">
+              <div class="response-slider__item">
+                <div class="response-slider__profile">
+                  <img
+                    src="img/user-1.jpg"
+                    alt=""
+                    class="response-slider__avatar"
+                  />
+                  <span class="response-slider__name">Megan Fox</span>
+                  <span class="response-slider__date">Stayed 18 Nov, 2019</span>
+                  <div class="response-slider__rating">
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                  </div>
+                  <!--/.response-slider__rating-->
+                </div>
+                <!--/.response-profile-->
+                <p class="response-slider__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend.
+                </p>
               </div>
-              <p class="response-slide__feedback">
-                It was very nice hotel with cleanliness. Staff behavior was good
-                and polite. They welcome us very well. Issue was only that Lift
-                was not in working and we were allotted to 3rd floor and
-                amenities articles were in corner of gallery which were giving
-                bad feeling. Breakfast was good and support of the staff was
-                also very nice. Location is not good as per atmosphere, it is
-                very nearby most of the popular places but self location in a
-                narrow street is not good. Overall it was a good experience and
-                could recommend.
-              </p>
+              <!--/.response-item-->
+            </div>
+            <!-- /.response-slide -->
+            <div class="swiper-slide">
+              <div class="response-slider__item">
+                <div class="response-slider__profile">
+                  <img
+                    src="img/user-2.jpg"
+                    alt=""
+                    class="response-slider__avatar"
+                  />
+                  <span class="response-slider__name">Crocodile Gene</span>
+                  <span class="response-slider__date">Stayed 31 Dec, 2019</span>
+                  <div class="response-slider__rating">
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                  </div>
+                  <!--/.response-slider__rating-->
+                </div>
+                <!--/.response-profile-->
+                <p class="response-slider__text">
+                  I would like to note the poor choice of alcohol, for us
+                  crocodails, this is a very important factor. Also, during the
+                  holiday I did not meet any crocodiles, and I, as a single and
+                  very charming crocodile in full bloom, wanted to spend new
+                  year's eve with her.
+                </p>
+              </div>
+              <!--/.response-item-->
+            </div>
+            <!-- /.response-slide -->
+            <div class="swiper-slide">
+              <div class="response-slider__item">
+                <div class="response-slider__profile">
+                  <img
+                    src="img/user-3.jpg"
+                    alt=""
+                    class="response-slider__avatar"
+                  />
+                  <span class="response-slider__name">Cheburashka</span>
+                  <span class="response-slider__date">Stayed 31 Dec, 2019</span>
+                  <div class="response-slider__rating">
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                    <img src="img/star.svg" alt="stars" />
+                  </div>
+                  <!--/.response-slider__rating-->
+                </div>
+                <!--/.response-profile-->
+                <p class="response-slider__text">
+                  Have you ever had a drunk crocodile break in? It is even
+                  difficult to describe the horror of what is happening. We
+                  peacefully admired the New year's sky, the children tried to
+                  see Santa there. But no, drunk, on the edge gormoshkoy, the
+                  song the blue wagon, we broke a crocodile! Drunk, talking
+                  crocodile. Our family is now undergoing psychotherapy. Where
+                  have you ever seen crocodiles talk?!
+                </p>
+              </div>
+              <!--/.response-item-->
             </div>
             <!-- /.response-slide -->
           </div>
           <!-- /.response-wrapper -->
-          <div class="response-button-prev"></div>
-          <div class="response-button-next"></div>
+          <button
+            class="response-slider__button response-slider__button--prev"
+          ></button>
+          <button
+            class="response-slider__button response-slider__button--next"
+          ></button>
         </div>
         <!-- /.response-container -->
       </div>
