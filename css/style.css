@@ -1298,6 +1298,9 @@ template {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
   }
+  .response {
+    padding-bottom: 60px;
+  }
   .response__title {
     font-size: 18px;
     line-height: 23px;
@@ -1363,6 +1366,14 @@ template {
   }
   .hotel-slider {
     height: 350px;
+  }
+  .response {
+    padding-bottom: 50px;
+  }
+  .activites-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
   }
   .activites-wrapper {
     -ms-flex-wrap: wrap;
