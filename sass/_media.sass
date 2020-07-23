@@ -1,10 +1,11 @@
 @media (max-width: 1200px)
   .container
     max-width: 960px
-  .slider
-    width: 100%
-    margin-bottom: 30px
+  
   .hotel
+    &__slider
+      width: 100%
+      margin-bottom: 30px
     &-grid
       flex-direction: column
     &-shell
@@ -15,7 +16,7 @@
     width: 48%
   
 @media (max-width: 992px)
-  .container
+  .container, .newsletter-wrapper
     max-width: 93%
   .navbar
     &-top
@@ -32,6 +33,11 @@
   .search
     &__input
       max-width: 340px    
+  .response
+    &-slider
+      &__item
+        max-width: 580px
+  
 @media ( max-width: 768px )
   .container
     max-width: 93%
@@ -70,8 +76,8 @@
         order: -1
     &-shell
       flex-direction: column
-  .slider
-    margin-bottom: 20px
+    &__slider
+      margin-bottom: 20px
   .booking
     max-width: 100%
     margin-bottom: 20px
@@ -79,11 +85,46 @@
     width: 100%
   .stars
     flex-basis: auto
+  .response
+    &__title
+      font-size: 18px
+      line-height: 23px
+    &-slider
+      &__item
+        padding: 0 30px 30px
+        &:after, &:before
+          display: none
+      &__button
+        top: 32px
+        left: 50%
+        transform: translate(-50%, 0)
+        &--prev
+          margin-left: -65px
+        &--next
+          margin-left: 65px
+  .newsletter
+    &-wrapper
+      flex-direction: column
+      align-items: start
+      max-width: 95%
+    &-subscribe
+      max-width: 95%
+      &__input
+        max-width: 280px
+    &-title
+      font-style: normal
+      font-weight: 300
+      font-size: 20px
+      line-height: 25px
+      &__strong
+        font-weight: 600
+        font-size: 30px
+        line-height: 38px
 @media ( max-width: 576px )
   .container
     max-width: 90%
-  .swiper
-    &-container
+  .hotel
+    &-slider
       height: 350px
 @media ( max-width: 480px )
   .container
@@ -91,8 +132,8 @@
   .logo
     width: 99px
     height: 13px
-  .swiper
-    &-container
+  .hotel
+    &-slider
       height: 179px
   .map
     height: 173px
