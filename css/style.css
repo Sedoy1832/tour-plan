@@ -1294,6 +1294,7 @@ template {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 95px;
 }
 
 .footer__ul {
@@ -1335,6 +1336,13 @@ template {
 
 .footer__item--mb-2 {
   margin-bottom: 20px;
+}
+
+.footer__item--pay {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .footer__icon--wrapper {
@@ -1395,6 +1403,37 @@ template {
   font-size: 12px;
   line-height: 15px;
   color: #E0E0E0;
+}
+
+.footer__conditions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/ 5;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 22px;
+  color: #FFFFFF;
+  margin-left: 135px;
+}
+
+.footer__ul--rules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 283px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 1200px) {
