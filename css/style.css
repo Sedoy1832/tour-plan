@@ -1287,7 +1287,7 @@ template {
   margin-bottom: 95px;
 }
 
-.footer__form {
+.footer__forma {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1819,7 +1819,7 @@ template {
   .footer__image {
     margin-right: 12px;
   }
-  .footer__form {
+  .footer__forma {
     max-width: 281px;
   }
   .footer__send {
