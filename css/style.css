@@ -415,7 +415,7 @@ template {
   color: #FFFFFF;
 }
 
-.navbar-menu__item--mobile--visible {
+.navbar-menu__item_mobile_visible {
   display: none;
 }
 
@@ -1595,7 +1595,7 @@ template {
     padding-top: 28px;
     padding-bottom: 28px;
   }
-  .navbar__mobile--fixed {
+  .navbar__mobile_fixed {
     position: fixed;
     left: 0;
     top: 0;
@@ -1635,7 +1635,7 @@ template {
   .navbar-menu__item {
     margin-bottom: 20px;
   }
-  .navbar-menu__item--mobile--visible {
+  .navbar-menu__item_mobile_visible {
     display: block;
   }
   .navbar-bottom {
