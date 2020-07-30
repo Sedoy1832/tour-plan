@@ -1074,7 +1074,7 @@ template {
           justify-content: space-between;
 }
 
-.activites__card {
+.activites__cards {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1096,7 +1096,7 @@ template {
   padding: 24px 26px;
 }
 
-.activites__card::before {
+.activites__cards::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -1349,7 +1349,7 @@ template {
   line-height: 15px;
 }
 
-.footer__icon--wrapper {
+.footer__image {
   min-width: 40px;
 }
 
@@ -1479,7 +1479,7 @@ template {
   .map {
     width: 48%;
   }
-  .activites__card {
+  .activites__cards {
     margin-right: 20px;
   }
   .footer__input {
@@ -1516,7 +1516,7 @@ template {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .activites__card {
+  .activites__cards {
     width: 49%;
     margin-right: 0;
     margin-bottom: 20px;
@@ -1712,7 +1712,7 @@ template {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .activites__card {
+  .activites__cards {
     width: 49%;
     margin-bottom: 20px;
   }
@@ -1744,7 +1744,7 @@ template {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .activites__card {
+  .activites__cards {
     width: 100%;
     margin-bottom: 20px;
   }
@@ -1816,7 +1816,7 @@ template {
   .map {
     height: 173px;
   }
-  .footer__icon--wrapper {
+  .footer__image {
     margin-right: 12px;
   }
   .footer__form {
