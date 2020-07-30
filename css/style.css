@@ -1074,7 +1074,7 @@ template {
           justify-content: space-between;
 }
 
-.activites__cards {
+.activites-card {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1096,7 +1096,7 @@ template {
   padding: 24px 26px;
 }
 
-.activites__cards::before {
+.activites-card::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -1479,7 +1479,7 @@ template {
   .map {
     width: 48%;
   }
-  .activites__cards {
+  .activites-card {
     margin-right: 20px;
   }
   .footer__input {
@@ -1516,7 +1516,7 @@ template {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .activites__cards {
+  .activites-card {
     width: 49%;
     margin-right: 0;
     margin-bottom: 20px;
@@ -1712,7 +1712,7 @@ template {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .activites__cards {
+  .activites-card {
     width: 49%;
     margin-bottom: 20px;
   }
@@ -1744,7 +1744,7 @@ template {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .activites__cards {
+  .activites-card {
     width: 100%;
     margin-bottom: 20px;
   }
