@@ -240,6 +240,8 @@
         flex-wrap: wrap
   .modal
     &__dialog
+      padding: 30px 60px
+      min-width: 65%
       &--visible
         max-height: 100%
         overflow: auto
@@ -295,6 +297,11 @@
     &__conditions
       grid-row: 8
       grid-column: 1
+  .modal
+    &__dialog
+      padding: 20px 50px
+      min-width: 90%
+
 @media ( max-width: 480px )
   .container
     max-width: 90%
@@ -331,3 +338,7 @@
     &__ul
       &--rules
         margin-bottom: 10px
+  .modal
+    &__dialog
+      padding: 20px 30px
+      min-width: 100%

@@ -28,14 +28,24 @@ img {
   border: none;
   padding: 0 23px;
   height: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BDBDBD;
 }
 
 .message {
   background-color: #fff;
+  color: #BDBDBD;
   border-radius: 4px;
   padding: 18px 23px;
   border: none;
   margin-bottom: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .button {
@@ -1552,8 +1562,8 @@ template {
 }
 
 .modal__info {
-  font-style: normal;
   font-weight: bold;
+  font-style: normal;
   font-size: 12px;
   line-height: 15px;
   color: #E0E0E0;
@@ -1926,6 +1936,10 @@ template {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .modal__dialog {
+    padding: 30px 60px;
+    min-width: 65%;
+  }
   .modal__dialog--visible {
     max-height: 100%;
     overflow: auto;
@@ -2015,6 +2029,10 @@ template {
     -ms-grid-column: 1;
     grid-column: 1;
   }
+  .modal__dialog {
+    padding: 20px 50px;
+    min-width: 90%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2063,6 +2081,10 @@ template {
   }
   .footer__ul--rules {
     margin-bottom: 10px;
+  }
+  .modal__dialog {
+    padding: 20px 30px;
+    min-width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
