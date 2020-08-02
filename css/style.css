@@ -1512,6 +1512,7 @@ template {
 .modal__dialog--visible {
   visibility: visible;
   opacity: 1;
+  overflow: auto;
 }
 
 .modal__close {
@@ -1690,6 +1691,9 @@ template {
     -ms-grid-row: 5;
     grid-row: 5;
     grid-column: span 6;
+  }
+  .modal__button {
+    margin-right: 10px;
   }
 }
 
@@ -1899,6 +1903,18 @@ template {
   }
   .footer__legal {
     margin-left: 0;
+  }
+  .modal__dialog--visible {
+    max-height: 100%;
+    overflow: auto;
+  }
+  .modal__send {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  .modal__button {
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
 }
 

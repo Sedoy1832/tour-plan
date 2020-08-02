@@ -85,6 +85,9 @@
       margin: 0
       grid-row: 5
       grid-column: span 6
+  .modal
+    &__button
+      margin-right: 10px   
 @media ( max-width: 768px )
   .container
     max-width: 93%
@@ -228,7 +231,16 @@
       flex-basis: 100%
     &__legal
       margin-left: 0
-  
+  .modal
+    &__dialog
+      &--visible
+        max-height: 100%
+        overflow: auto
+    &__send
+      flex-wrap: wrap-reverse
+    &__button
+      margin-top: 15px
+      margin-bottom: 30px
 @media ( max-width: 576px )
   .container
     max-width: 90%
