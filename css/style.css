@@ -2084,7 +2084,7 @@ template {
   }
   .modal__dialog {
     padding: 20px 30px;
-    min-width: 100%;
+    min-width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */
