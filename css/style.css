@@ -1741,6 +1741,9 @@ template {
   .navbar-menu__item {
     margin-bottom: 20px;
   }
+  .navbar-menu__item_p3 {
+    padding-bottom: 30px;
+  }
   .navbar-menu__item_mobile_visible {
     display: block;
   }
@@ -1755,6 +1758,7 @@ template {
   }
   .navbar-bottom__visible {
     display: block;
+    overflow: auto;
   }
   .user__name--light {
     color: #FFFFFF;
