@@ -22,6 +22,38 @@ img {
   font-family: 'Nunito', sans-serif;
 }
 
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #BDBDBD;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #BDBDBD;
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #BDBDBD;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #BDBDBD;
+}
+
 .input {
   background-color: #fff;
   border-radius: 4px;
@@ -32,12 +64,11 @@ img {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
+  outline: none;
 }
 
 .message {
   background-color: #fff;
-  color: #BDBDBD;
   border-radius: 4px;
   padding: 18px 23px;
   border: none;
@@ -56,7 +87,6 @@ img {
   min-width: 160px;
   min-height: 50px;
   padding: 18px;
-  color: #FFFFFF;
   background-color: #EC1F46;
   border: none;
   outline: none;
@@ -931,13 +961,13 @@ template {
 .newsletter-subscribe__input {
   padding-right: 110px;
   padding-left: 33px;
-  min-height: 55px;
+  height: 55px;
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
-  color: #BDBDBD;
   width: 350px;
   outline: none;
+  border: none;
 }
 
 .newsletter-subscribe__button {
@@ -1394,6 +1424,8 @@ template {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .footer__image {
@@ -1428,7 +1460,6 @@ template {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
 }
 
 .footer__message {
@@ -1445,7 +1476,6 @@ template {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
 }
 
 .footer__send {
