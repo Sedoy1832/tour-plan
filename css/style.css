@@ -1393,6 +1393,10 @@ template {
 .footer__text {
   color: #BDBDBD;
   margin-bottom: 22px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
 }
 
 .footer__link {
@@ -1410,6 +1414,11 @@ template {
   height: 50px;
   margin-bottom: 15px;
   outline: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BDBDBD;
 }
 
 .footer__message {
@@ -1422,6 +1431,11 @@ template {
       flex-basis: 100%;
   margin-bottom: 22px;
   outline: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BDBDBD;
 }
 
 .footer__send {
@@ -1604,20 +1618,17 @@ template {
   .container, .newsletter-wrapper {
     max-width: 93%;
   }
-  body {
-    padding-top: 78px;
-  }
-  body-top {
+  .navbar-top {
     padding: 30px 0;
   }
-  body__search {
+  .navbar__search {
     margin-left: auto;
   }
-  body-menu__link {
+  .navbar-menu__link {
     font-size: 12px;
     line-height: 15px;
   }
-  body__logo {
+  .navbar__logo {
     width: 133px;
     height: 18px;
   }
@@ -1702,9 +1713,15 @@ template {
   .container {
     max-width: 93%;
   }
+  body {
+    padding-top: 78px;
+  }
   .navbar-top {
     padding-top: 28px;
     padding-bottom: 28px;
+  }
+  .navbar-top__menu-button {
+    outline: none;
   }
   .navbar__mobile_fixed {
     position: fixed;
@@ -1745,9 +1762,6 @@ template {
   }
   .navbar-menu__item {
     margin-bottom: 20px;
-  }
-  .navbar-menu__item_p3 {
-    padding-bottom: 30px;
   }
   .navbar-menu__item_mobile_visible {
     display: block;
@@ -1905,6 +1919,13 @@ template {
   .footer__legal {
     margin-left: 0;
   }
+  .footer__title--inline {
+    margin-bottom: 20px;
+  }
+  .footer__social-network {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .modal__dialog--visible {
     max-height: 100%;
     overflow: auto;
@@ -2003,7 +2024,7 @@ template {
   .navbar__search--mobile--visible {
     margin: auto;
     margin-bottom: 30px;
-    width: 80%;
+    width: 72%;
   }
   .navbar-bottom {
     top: 67px;
