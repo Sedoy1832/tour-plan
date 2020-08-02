@@ -43,6 +43,8 @@ $(document).ready(function () {
     );
     // Добавляем все метки на карту.
     myMap.geoObjects.add(myPlacemark1);
+    // отключаем Scroll
+    myMap.behaviors.disable("scrollZoom");
   }
   $(".newsletter").parallax({ imageSrc: "img/newsleter-bg.jpg" });
 
