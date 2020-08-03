@@ -1456,6 +1456,16 @@ template {
   width: 100%;
 }
 
+.footer__input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
 .footer__input-group {
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
@@ -1653,6 +1663,10 @@ template {
   }
   .activites-card {
     margin-right: 20px;
+  }
+  .footer__input-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .footer__input-group {
     -ms-flex-preferred-size: 100%;
