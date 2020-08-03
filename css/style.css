@@ -55,7 +55,6 @@ textarea::placeholder {
 }
 
 .invalid {
-  margin-bottom: 2px;
   color: #EC1F46;
   border-bottom: 1px solid #EC1F46;
 }

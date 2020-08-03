@@ -14,6 +14,7 @@ $(document).ready(function () {
         },
         phone: {
           required: "Телефон обязателен",
+          minlength: "Телефон должен содержать 11 цифр",
         },
       },
     });

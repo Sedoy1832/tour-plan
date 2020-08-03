@@ -513,15 +513,19 @@
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
-        <form action="send.php" method="POST" class="newsletter-subscribe">
-          <input
-            type="email"
-            class="newsletter-subscribe__input"
-            placeholder="Your email address"
-            name="email"
-            required
-          />
-          <button class="newsletter-subscribe__button">Send</button>
+        <form action="send.php" method="POST" class="newsletter-subscribe form">
+          <div class="newsletter__input-group">
+            <input
+              type="email"
+              class="newsletter-subscribe__input"
+              placeholder="Your email address"
+              name="email"
+              required
+            />
+          </div>
+          <div class="newsletter__input-group">
+            <button class="newsletter-subscribe__button">Send</button>
+          </div>
         </form>
       </div>
       <!-- /.newsletter-wrapper -->
@@ -882,6 +886,7 @@ quest"
                   placeholder="Phone Number*"
                   name="phone"
                   required
+                  minlength="16"
                 />
               </div>
               <textarea
@@ -946,6 +951,7 @@ quest"
             placeholder="Phone Number*"
             name="phone"
             required
+            minlength="16"
           />
           <input
             type="email"
@@ -995,6 +1001,7 @@ quest"
             placeholder="Phone Number*"
             name="phone"
             required
+            minlength="16"
           />
           <input
             type="email"
