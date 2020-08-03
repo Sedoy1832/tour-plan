@@ -1,4 +1,25 @@
 $(document).ready(function () {
+  // Обработка форм
+  $(".form").each(function () {
+    $(this).validate({
+      errorClass: "invalid",
+      messages: {
+        name: {
+          required: "Укажите ваше имя",
+          minlength: "Имя должно быть не короче 2 символов",
+        },
+        email: {
+          required: "Введите вашу почту",
+          email: "Your email address must be in the format of name@domain.com",
+        },
+        phone: {
+          required: "Телефон обязателен",
+        },
+      },
+    });
+  });
+  //подключение маски телефона
+  $(".phone").mask("+7(000)000-00-00");
   var hotelSlider = new Swiper(".hotel-slider", {
     // Optional parameters
     loop: true,

@@ -54,6 +54,12 @@ textarea::placeholder {
   color: #BDBDBD;
 }
 
+.invalid {
+  margin-bottom: 2px;
+  color: #EC1F46;
+  border-bottom: 1px solid #EC1F46;
+}
+
 .input {
   background-color: #fff;
   border-radius: 4px;
@@ -1448,19 +1454,14 @@ template {
 }
 
 .footer__input {
+  width: 100%;
+}
+
+.footer__input-group {
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
-  background-color: #fff;
-  border-radius: 4px;
-  border: none;
-  padding: 0 23px;
-  height: 50px;
   margin-bottom: 15px;
   outline: none;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
 }
 
 .footer__message {
@@ -1580,7 +1581,7 @@ template {
 
 .modal__input {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 15px;
   outline: none;
 }
 
@@ -1590,6 +1591,11 @@ template {
   cols: 30;
   rows: 4;
   outline: none;
+  margin-top: 15px;
+}
+
+.modal__button {
+  margin-top: 15px;
 }
 
 .modal__info {
@@ -1649,7 +1655,7 @@ template {
   .activites-card {
     margin-right: 20px;
   }
-  .footer__input {
+  .footer__input-group {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
@@ -1735,7 +1741,7 @@ template {
     grid-row: 4;
     margin-bottom: 63px;
   }
-  .footer__input {
+  .footer__input-group {
     -ms-flex-preferred-size: 49%;
         flex-basis: 49%;
   }
@@ -1953,7 +1959,7 @@ template {
     width: 49%;
     margin-bottom: 20px;
   }
-  .footer__input {
+  .footer__input-group {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
