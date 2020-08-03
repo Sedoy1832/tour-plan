@@ -1785,6 +1785,11 @@ template {
   body {
     padding-top: 78px;
   }
+  .invalid {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+  }
   .navbar-top {
     padding-top: 28px;
     padding-bottom: 28px;
@@ -1868,7 +1873,7 @@ template {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    widows: 16px;
+    width: 16px;
     height: 11px;
     border: none;
     background-color: #FFFFFF;
