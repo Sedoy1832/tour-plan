@@ -10,7 +10,7 @@ $(document).ready(function () {
         },
         email: {
           required: "Введите вашу почту",
-          email: "Your email address must be in the format of name@domain.com",
+          email: "Формат почты name@domain.com",
         },
         phone: {
           required: "Телефон обязателен",

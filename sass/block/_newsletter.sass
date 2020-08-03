@@ -2,7 +2,10 @@
   position: relative
   padding: 98px 0 87px 0
   background: transparent
-
+  &__input
+    &-group
+      height: 80px
+      margin-top: 25px
   &:before
     content: ''
     position: absolute
@@ -31,10 +34,12 @@
       line-height: 45px
       text-transform: uppercase
   &-subscribe
+   
     position: relative
     border-radius: 4px
     overflow: hidden
     &__input
+      display: flex
       padding-right: 110px
       padding-left: 33px
       height: 55px
@@ -44,9 +49,10 @@
       width: 350px
       outline: none
       border: none
+      border-radius: 5px      
     &__button
       position: absolute
-      top: 0
+      top: 25px
       right: 0
       min-width: 65px
       height: 55px
@@ -57,4 +63,4 @@
       font-weight: bold
       font-size: 12px
       line-height: 15px
-      cursor: pointer
+      border-radius: 0 4px 4px 0 
