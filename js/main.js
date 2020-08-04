@@ -21,6 +21,7 @@ $(document).ready(function () {
   });
   //подключение маски телефона
   $(".phone").mask("+7(000)000-00-00");
+  // Подключения слайдера
   var hotelSlider = new Swiper(".hotel-slider", {
     // Optional parameters
     loop: true,
@@ -53,13 +54,11 @@ $(document).ready(function () {
       {
         // Свойства.
         // Содержимое иконки, балуна и хинта.
-        iconContent: "Я",
         balloonContent: "Hilton Munich Park",
         hintContent: "Hilton Munich Park",
       },
       {
         // Опции.
-        // Стандартная фиолетовая иконка.
         preset: "twirl#redIcon",
       }
     );
@@ -114,4 +113,5 @@ $(document).ready(function () {
     if (eventObject.which === 27)
       $(".modal__overlay").removeClass("modal__overlay--visible");
   });
+  AOS.init();
 });

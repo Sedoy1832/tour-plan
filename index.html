@@ -9,13 +9,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="navbar navbar__mobile_fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="#" class="logo navbar__logo"
+          <a
+            href="#"
+            class="logo navbar__logo"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
             ><img
               src="img/horizonts-logo.svg"
               alt="Logo: Best tour plan"
@@ -25,6 +31,9 @@
           <form
             action="#"
             class="search navbar__search navbar__search--mobile--hidden"
+            data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
           >
             <input
               type="text"
@@ -39,7 +48,13 @@
               />
             </button>
           </form>
-          <a href="#" class="user navbar__user navbar__user--mobile--hidden">
+          <a
+            href="#"
+            class="user navbar__user navbar__user--mobile--hidden"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <img
               src="img/avatar.jpg"
               alt="Avatar: Nathan"
@@ -175,7 +190,12 @@
         </div>
         <!-- /.hotel-info -->
         <div class="hotel-grid">
-          <div class="swiper-container hotel-slider hotel__slider">
+          <div
+            class="swiper-container hotel-slider hotel__slider"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
@@ -227,7 +247,12 @@
           <!-- /.swiper-container -->
 
           <div class="hotel-shell">
-            <div class="booking">
+            <div
+              class="booking"
+              data-aos="fade-left"
+              data-aos-offset="500"
+              data-aos-easing="ease-in-sine"
+            >
               <div class="booking-price">
                 <span class="booking-price__starts">price starts as</span>
                 <strong class="booking-price__pricetag">$ 8,500</strong>
@@ -509,11 +534,23 @@
 
     <section class="newsletter">
       <div class="newsletter-wrapper">
-        <h2 class="newsletter-title">
+        <h2
+          class="newsletter-title"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
-        <form action="send.php" method="POST" class="newsletter-subscribe form">
+        <form
+          action="send.php"
+          method="POST"
+          class="newsletter-subscribe form"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <div class="newsletter__input-group">
             <input
               type="email"
@@ -531,13 +568,25 @@
     <!-- /.newsletter -->
     <section class="response">
       <div class="container">
-        <h2 class="response__title">What people thinks about&nbsp;us</h2>
+        <h2
+          class="response__title"
+          data-aos="fade-down"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          What people thinks about&nbsp;us
+        </h2>
         <div class="swiper-container response-slider">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper response-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
-              <div class="response-slider__item">
+              <div
+                class="response-slider__item"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <div class="response-slider__profile">
                   <img
                     src="img/user-1.jpg"
@@ -639,9 +688,15 @@
           <!-- /.response-wrapper -->
           <button
             class="response-slider__button response-slider__button--prev"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
           ></button>
           <button
             class="response-slider__button response-slider__button--next"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
           ></button>
         </div>
         <!-- /.response-container -->
@@ -653,7 +708,12 @@
       <div class="container">
         <h2 class="activites-title">Other Activities</h2>
         <div class="activites-wrapper">
-          <div class="card activites-card">
+          <div
+            class="card activites-card"
+            data-aos="fade-right"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine"
+          >
             <img
               src="img/activite.jpg"
               alt="The curious corner 
@@ -665,7 +725,12 @@
             </h3>
             <button class="activites-card__button">Book Now</button>
           </div>
-          <div class="card activites-card">
+          <div
+            class="card activites-card"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <img
               src="img/activite-2.jpg"
               alt="Gymkhana club golf
@@ -675,7 +740,12 @@
             <h3 class="activites-card__title">Gymkhana club golf course</h3>
             <button class="activites-card__button">Book Now</button>
           </div>
-          <div class="card activites-card">
+          <div
+            class="card activites-card"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <img
               src="img/activite-3.jpg"
               alt="Tamarind falls hiking
@@ -689,7 +759,12 @@
             </h3>
             <button class="activites-card__button">Book Now</button>
           </div>
-          <div class="card activites-card">
+          <div
+            class="card activites-card"
+            data-aos="fade-left"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine"
+          >
             <img
               src="img/activite-4.jpg"
               alt="The blue marine discovery
@@ -876,6 +951,9 @@
                     placeholder="Your Full Name*"
                     name="name"
                     required
+                    data-aos="fade-right"
+                    data-aos-offset="400"
+                    data-aos-easing="ease-in-sine"
                   />
                 </div>
                 <div class="footer__input-group">
@@ -886,6 +964,9 @@
                     name="phone"
                     required
                     minlength="16"
+                    data-aos="fade-left"
+                    data-aos-offset="400"
+                    data-aos-easing="ease-in-sine"
                   />
                 </div>
               </div>
@@ -895,12 +976,27 @@
                 rows="4"
                 placeholder="Message"
                 name="message"
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
               ></textarea>
               <div class="footer__send">
-                <button class="button footer__button" type="submit">
+                <button
+                  class="button footer__button"
+                  type="submit"
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                >
                   Send
                 </button>
-                <span class="footer__info">* Required&nbsp;Fields</span>
+                <span
+                  class="footer__info"
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  >* Required&nbsp;Fields</span
+                >
               </div>
             </form>
           </div>
@@ -1032,6 +1128,7 @@
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
