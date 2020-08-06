@@ -33,7 +33,7 @@ try {
     // Настройки вашей почты
     $mail->Host       = 'smtp.mail.ru'; // SMTP сервера вашей почты
     $mail->Username   = 'xkayx@bk.ru'; // Логин на почте
-    $mail->Password   = 'Sedoy1832'; // Пароль на почте
+    $mail->Password   = ''; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
     $mail->setFrom('xkayx@bk.ru', 'Юрий Демин'); // Адрес самой почты и имя отправителя
