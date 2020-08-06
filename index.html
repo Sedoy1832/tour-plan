@@ -18,13 +18,7 @@
     <div class="navbar navbar__mobile_fixed">
       <div class="container">
         <div class="navbar-top">
-          <a
-            href="index.html"
-            class="logo navbar__logo"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
+          <a href="index.html" class="logo navbar__logo">
             <img
               src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
               data-src=" img/horizonts-logo.svg"
@@ -35,9 +29,6 @@
           <form
             action="#"
             class="search navbar__search navbar__search--mobile--hidden"
-            data-aos="fade-down"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
           >
             <input
               type="text"
@@ -53,13 +44,7 @@
               />
             </button>
           </form>
-          <a
-            href="#"
-            class="user navbar__user navbar__user--mobile--hidden"
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
+          <a href="#" class="user navbar__user navbar__user--mobile--hidden">
             <img
               src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
               data-src=" img/avatar.jpg"
@@ -367,7 +352,13 @@
               <div class="packages-price">
                 <span class="packages-price__old-price">$ 10,500</span>
                 <span class="packages-price__new-price">$ 8,500</span>
-                <button class="packages-price__button">Book Now</button>
+                <button
+                  class="packages-price__button"
+                  data-toggle="modal"
+                  data-href="#booking-modal"
+                >
+                  Book Now
+                </button>
               </div>
               <!-- /.packages-price -->
             </div>
@@ -412,7 +403,13 @@
               <div class="packages-price">
                 <span class="packages-price__old-price">$ 8,500</span>
                 <span class="packages-price__new-price">$ 3,000</span>
-                <button class="packages-price__button">Book Now</button>
+                <button
+                  class="packages-price__button"
+                  data-toggle="modal"
+                  data-href="#booking-modal"
+                >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -455,7 +452,13 @@
               <div class="packages-price">
                 <span class="packages-price__old-price">$ 10,500</span>
                 <span class="packages-price__new-price">$ 9,500</span>
-                <button class="packages-price__button">Book Now</button>
+                <button
+                  class="packages-price__button"
+                  data-toggle="modal"
+                  data-href="#booking-modal"
+                >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -498,7 +501,13 @@
               <div class="packages-price">
                 <span class="packages-price__old-price">$ 4,500</span>
                 <span class="packages-price__new-price">$ 2,500</span>
-                <button class="packages-price__button">Book Now</button>
+                <button
+                  class="packages-price__button"
+                  data-toggle="modal"
+                  data-href="#booking-modal"
+                >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -541,7 +550,13 @@
               <div class="packages-price">
                 <span class="packages-price__old-price">$ 6,500</span>
                 <span class="packages-price__new-price">$ 3,500</span>
-                <button class="packages-price__button">Book Now</button>
+                <button
+                  class="packages-price__button"
+                  data-toggle="modal"
+                  data-href="#booking-modal"
+                >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -561,23 +576,11 @@
         />
       </div>
       <div class="newsletter-wrapper">
-        <h2
-          class="newsletter-title"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
+        <h2 class="newsletter-title">
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
-        <form
-          action="send.php"
-          method="POST"
-          class="newsletter-subscribe form"
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
+        <form action="send.php" method="POST" class="newsletter-subscribe form">
           <div class="newsletter__input-group">
             <input
               type="email"
@@ -595,12 +598,7 @@
     <!-- /.newsletter -->
     <section class="response">
       <div class="container">
-        <h2
-          class="response__title"
-          data-aos="fade-down"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
+        <h2 class="response__title">
           What people thinks about&nbsp;us
         </h2>
         <div class="swiper-container response-slider">
@@ -608,12 +606,7 @@
           <div class="swiper-wrapper response-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
-              <div
-                class="response-slider__item"
-                data-aos="fade-up"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-              >
+              <div class="response-slider__item">
                 <div class="response-slider__profile">
                   <img
                     src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
@@ -718,15 +711,9 @@
           <!-- /.response-wrapper -->
           <button
             class="response-slider__button response-slider__button--prev"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
           ></button>
           <button
             class="response-slider__button response-slider__button--next"
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
           ></button>
         </div>
         <!-- /.response-container -->
@@ -738,12 +725,7 @@
       <div class="container">
         <h2 class="activites-title">Other Activities</h2>
         <div class="activites-wrapper">
-          <div
-            class="card activites-card"
-            data-aos="fade-right"
-            data-aos-offset="500"
-            data-aos-easing="ease-in-sine"
-          >
+          <div class="card activites-card">
             <img
               src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
               data-src=" img/activite.jpg"
@@ -756,12 +738,7 @@
             </h3>
             <button class="activites-card__button">Book Now</button>
           </div>
-          <div
-            class="card activites-card"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
+          <div class="card activites-card">
             <img
               src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
               data-src=" img/activite-2.jpg"
@@ -772,12 +749,7 @@
             <h3 class="activites-card__title">Gymkhana club golf course</h3>
             <button class="activites-card__button">Book Now</button>
           </div>
-          <div
-            class="card activites-card"
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
+          <div class="card activites-card">
             <img
               src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
               data-src=" img/activite-3.jpg"
@@ -792,12 +764,7 @@
             </h3>
             <button class="activites-card__button">Book Now</button>
           </div>
-          <div
-            class="card activites-card"
-            data-aos="fade-left"
-            data-aos-offset="500"
-            data-aos-easing="ease-in-sine"
-          >
+          <div class="card activites-card">
             <img
               src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
               data-src=" img/activite-4.jpg"
@@ -857,7 +824,7 @@
           <!-- /.footer__list -->
           <div class="footer__list footer__information">
             <h3 class="footer__title">
-              ADDITIONAL INFORMATION
+              ADDITIONAL&nbsp;INFORMATION
             </h3>
             <ul class="footer__ul">
               <li class="footer__item">
@@ -959,7 +926,7 @@
                     class="footer__icon"
                   />
                 </div>
-                <a href="#" class="footer__link">
+                <a href="tel:52-56-61-38" class="footer__link" type="tel">
                   Tel (business hours) : 269 1500
                   <br />Tel&nbsp;(hotline)&nbsp;Monday - Saturday: 52-56-61-38
                   (08:00 am – 20:00 pm) Tel&nbsp;(hotline) Sunday: 52-56-61-38
@@ -974,7 +941,11 @@
                     class="footer__icon"
                   />
                 </div>
-                <a href="#" class="footer__link">
+                <a
+                  href="mailto:cherly.lawson@example.com"
+                  class="footer__link"
+                  type="mail"
+                >
                   cherly.lawson@example.com
                 </a>
               </li>

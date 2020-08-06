@@ -26,10 +26,11 @@
   .main-card
     &-info
       padding-top: 35px
+      padding-bottom: 27px
       &__title
         margin-bottom: 15px
       &__text
-        margin-bottom: 23px
+        margin-bottom: 53px
       &__item:nth-child(3n)
         margin-bottom: 13px
   .secondary-card
@@ -261,6 +262,9 @@
       width: 49%
       margin-bottom: 20px
   .footer
+    &__image
+      margin-right: 0
+      margin-top: 4px
     &__input
       &-group
         flex-basis: 100%
@@ -268,6 +272,7 @@
       margin-left: 0
     &__title--inline
       margin-bottom: 20px
+      flex-basis: 100%
     &__social
       &-network
         flex-wrap: wrap
@@ -354,6 +359,9 @@
       padding: 20px 50px
       min-width: 90%
   .packages
+    &__title
+      font-size: 18px
+      line-height: 23px
     &-wrapper
       grid-gap: 20px
     &-price
@@ -387,7 +395,7 @@
       height: 250px
 @media ( max-width: 480px )
   .container
-    max-width: 90%
+    max-width: 88%
   .navbar
     &__search
       &--mobile
@@ -412,9 +420,11 @@
   .footer
     &__image
       margin-right: 12px
-    &__forma
-      
+    &__forma 
       max-width: 281px
+    &__contact
+      &-form
+        margin-bottom: 0
     &__send
       flex-direction: column-reverse
       align-items: start
