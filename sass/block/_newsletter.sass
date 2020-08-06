@@ -1,7 +1,24 @@
 .newsletter
+  height: 260px
   position: relative
   padding: 98px 0 87px 0
   background: transparent
+  &-image
+    display: flex
+    position: absolute
+    max-width: 100%
+    max-height: 100%
+    background-position: center
+    top: 0
+    left: 0
+    right: 0
+    top: 0
+    z-index: -1
+    &__bg
+      max-width: 100%
+      max-height: 100%
+      object-fit: cover
+
   &__input
     &-group
       height: 80px
@@ -23,6 +40,7 @@
     margin: auto
     color: $light
   &-title
+    margin: 0
     font-style: normal
     font-weight: 300
     font-size: 24px
